@@ -1,0 +1,24 @@
+{
+  "name": "agenda",
+  "version": "1.0.0",
+  "description": "Estudo Back-end NodeJs + Express",
+  "main": "index.js",
+  "scripts": {
+    "init": "nodemon agenda.js"
+  },
+  "author": "Douglas Croti",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "ejs": "^3.1.7",
+    "express": "^4.18.0",
+    "express-session": "^1.17.2",
+    "md5": "^2.3.0",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "xml-js": "^1.6.11"
+  }
+}

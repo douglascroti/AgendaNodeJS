@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agenda - Contatos : NodeJS</title>
+
+    <link href="/css/Bootstrap/bootstrap-select.min.css" rel="stylesheet">
+    <link href="/css/Bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/datatables.min.css" rel="stylesheet" />
+    <link href="/css/jquery-ui.min.css" rel="stylesheet" />
+    <link href="/css/animate.css" rel="stylesheet" />
+  </head>
+  <body>
+
+<% if (session) { %>
+  <input type='hidden' id='exibirMensagem' value="<%= session['message_tela'] %>">
+<% } %>
+<% session['message_tela'] = '' %>
